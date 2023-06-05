@@ -1,0 +1,223 @@
+/* 
+
+
+
+
+
+Global Styles
+
+
+
+
+
+
+*/
+
+/* 
+
+  font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container  {
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+.gray-bg-container {
+  background-color: #E4E4E6;
+    background-image: url(./img/showcase-bg.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh; 
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #1D1D24;
+}
+
+.accent-color{
+  color: #FE8D00;
+}
+
+.btn-styling  {
+  margin-top: 1rem;
+  height: 70px;
+  width: 220px;
+  border: none;
+  background-color: #FE8D00;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 500px;
+  cursor: pointer;
+  transition: all .2s ease-in;
+}
+
+
+.btn-styling:hover {
+background-color: #E4E4E6;
+border: 1px solid #FE8D00;
+color: #FE8D00;
+
+}
+/* 
+
+
+
+
+
+Navigation 
+
+
+
+
+
+
+*/
+
+nav {
+  padding-top: 2rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+
+ a.nav-logo img {
+  width: 100px;
+  padding-right: 1.5rem;
+}
+
+nav ul li a {
+  padding: 0rem 1rem;
+  font-size: 18px;
+}
+
+/* 
+
+
+
+
+
+Greeting 
+
+
+
+
+
+
+*/
+
+#greeting-container {
+ margin-top: 10rem;
+ margin-left: 10rem;
+}
+
+.greeting-text h4 {
+  padding-bottom: 1rem;
+  color: #FE8D00;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.greeting-text h1 {
+ font-family: 'Montserrat', sans-serif;
+ font-size: 75px;
+}
+
+.greeting-text p {
+  color: #757575;
+  padding: 1rem 0rem;
+  width: 50%;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+/* 
+
+
+
+Media Queries
+
+
+
+*/
+
+/* 
+
+
+
+Tablet
+
+
+
+*/
+
+@media screen and (max-width: 1024px) {
+
+  .gray-bg-container {
+  background-color: #E4E4E6;
+  background-image:  url(./img/mobile-showcase.webp);
+  background-repeat: no-repeat;
+  background-position: -89% -62%;
+  height: 88vh; 
+}
+
+  #greeting-container {
+ margin-top: 7rem;
+ margin-left: 0rem;
+}
+
+.greeting-text p {
+  color: #757575;
+  padding: 1rem 0rem;
+  width: 90%;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+}
+
+
+/* 
+
+
+
+
+Mobile Landscape
+
+
+
+
+*/
+
+@media screen and (max-width: 767px) {
+
+  .gray-bg-container {
+  background-color: #E4E4E6;
+  background-image:  url(./img/mobile-showcase.webp);
+  background-repeat: no-repeat;
+  background-position: 38% 78%;
+  height: 100vh; 
+}
+
+}
