@@ -197,7 +197,7 @@ WideScreen Monitor
 
 */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1600px) {
 
 .gray-bg-container {
   background-color: #E4E4E6;
