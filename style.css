@@ -175,6 +175,58 @@ Greeting
   line-height: 1.6;
 }
 
+/* 
+
+
+
+
+
+About
+
+
+
+
+
+
+*/
+
+#about {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-photo img {
+  border-radius: 8px;
+  padding-right: 5rem;
+}
+
+.about-text h4 {
+  padding-bottom: 1rem;
+}
+
+.about-text h2 {
+  color: #1f1f25;
+  font-size: 50px;
+  padding-bottom: 1.3rem;
+}
+
+.about-text p {
+  color: #757575;
+  font-size: 18px;
+  padding-bottom: 1.3rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.about-descritptions{
+  display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ row-gap: 20px;
+ column-gap: 40px;
+ margin-top: 2rem;
+}
 
 /* 
 
@@ -229,6 +281,19 @@ Jumbo Tablet
   background-position: 300% -92%;
   height: 800px; 
 }
+
+#about {
+  margin-top: 8rem;
+  flex-direction: column;
+}
+
+.about-photo img {
+  border-radius: 8px;
+  padding-right: 0rem;
+  margin-bottom: 3rem;
+  width: 90%;
+}
+
 }
 
 /* 
@@ -263,6 +328,8 @@ Tablet
   font-size: 18px;
   line-height: 1.6;
 }
+
+
 
 }
 
@@ -323,5 +390,13 @@ nav ul li {
   padding: 10px 0px;
 }
 
+.about-photo {
+  text-align: center;
+}
+
+.about-descritptions{
+ grid-template-columns: repeat(1, 1fr);
+ 
+}
 
 }
