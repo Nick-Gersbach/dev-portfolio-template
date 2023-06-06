@@ -191,6 +191,29 @@ Media Queries
 
 
 
+WideScreen Monitor
+
+
+
+*/
+
+@media screen and (max-width: 1024px) {
+
+.gray-bg-container {
+  background-color: #E4E4E6;
+    background-image: url(./img/showcase-bg-light.webp);
+  background-repeat: no-repeat;
+  background-position: 300% -92%;
+  height: 100vh; 
+}
+
+}
+
+/* 
+
+
+
+
 Jumbo Tablet
 
 
