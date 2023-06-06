@@ -89,6 +89,15 @@ color: #FE8D00;
   opacity: 0.5;
 }
 
+.mobile-nav-logo img{
+  width: 80px;
+  position: absolute;
+  top: 34px;
+  left: 30px;
+  display: none;
+  
+}
+
 
 /* 
 
@@ -231,13 +240,19 @@ Mobile Landscape
     display: block;
 }
 
+.mobile-nav-logo img{
+
+  display: block;
+  
+}
+
 
   .gray-bg-container {
   background-color: #E4E4E6;
   background-image:  url(./img/mobile-showcase.webp);
   background-repeat: no-repeat;
   background-position: 38% 78%;
-  height: 100vh; 
+  height: 896px; 
 }
 
 nav ul {
