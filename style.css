@@ -281,6 +281,40 @@ padding-bottom: 2.5rem;
   height: 150px;
 }
 
+
+/* 
+
+
+
+
+
+Projects
+
+
+
+
+
+
+*/
+
+#projects {
+  margin-top: 10rem;
+}
+
+.projects-text {
+  text-align: center;
+}
+
+.projects-text p {
+  color: #757575;
+  font-size: 18px;
+  padding-bottom: 1.3rem;
+  font-weight: 300;
+  line-height: 1.7;
+  margin: 0 auto;
+  width: 50%;
+}
+
 /* 
 
 
