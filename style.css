@@ -254,6 +254,12 @@ Skills
   margin-top: 10rem;
 }
 
+.skill {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
 .skills-text {
   text-align: center;
 }
@@ -456,6 +462,11 @@ nav ul li {
 .skills-grid {
   grid-template-columns: repeat(2, 1fr);;
  
+}
+
+.skill img {
+  width: 100px;
+  height: 100px;
 }
 
 }
