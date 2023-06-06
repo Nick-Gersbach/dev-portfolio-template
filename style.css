@@ -152,7 +152,7 @@ Greeting
 
 #greeting-container {
  margin-top: 10rem;
- margin-left: 10rem;
+ margin-left: 3rem;
 }
 
 .greeting-text h4 {
@@ -190,20 +190,42 @@ Media Queries
 
 
 
-Tablet
+
+Jumbo Tablet
+
 
 
 
 */
 
 @media screen and (max-width: 1024px) {
+    .gray-bg-container {
+  background-color: #E4E4E6;
+  background-image:  url(./img/mobile-showcase.webp);
+  background-repeat: no-repeat;
+  background-position: 300% -92%;
+  height: 800px; 
+}
+}
+
+/* 
+
+
+
+Tablet
+
+
+
+*/
+
+@media screen and (max-width: 1023px) {
 
   .gray-bg-container {
   background-color: #E4E4E6;
   background-image:  url(./img/mobile-showcase.webp);
   background-repeat: no-repeat;
   background-position: -89% -62%;
-  height: 88vh; 
+  height: 900px; 
 }
 
   #greeting-container {
