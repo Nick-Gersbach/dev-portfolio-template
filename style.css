@@ -75,6 +75,21 @@ border: 1px solid #FE8D00;
 color: #FE8D00;
 
 }
+
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 56px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}
+
+.menu-btn:hover {
+  opacity: 0.5;
+}
+
+
 /* 
 
 
@@ -212,6 +227,11 @@ Mobile Landscape
 
 @media screen and (max-width: 767px) {
 
+  .menu-btn {
+    display: block;
+}
+
+
   .gray-bg-container {
   background-color: #E4E4E6;
   background-image:  url(./img/mobile-showcase.webp);
@@ -219,5 +239,29 @@ Mobile Landscape
   background-position: 38% 78%;
   height: 100vh; 
 }
+
+nav ul {
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-color: #fff;
+ width: 75%;
+ height: 100%;
+ border-right: #ccc 1px solid;
+ transform: translateX(-500px);
+ transition: transform .5s ease-in-out;
+}
+
+nav ul.show {
+
+transform: translateX(0px);
+  
+}
+
+nav ul li {
+  padding: 10px 0px;
+}
+
 
 }
