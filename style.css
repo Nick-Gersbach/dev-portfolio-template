@@ -443,6 +443,41 @@ Contact
   justify-content: space-evenly;
 }
 
+.form-control {
+  margin: 1.5rem 0rem;
+}
+
+form input {
+  height: 40px;
+  width: 400px;
+  padding-left: 7px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  padding-left: 7px;
+  padding-top: 3px;
+  resize: none;
+  width: 400px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #FE8D00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 17px;
+
+}
+
 
 /* 
 
