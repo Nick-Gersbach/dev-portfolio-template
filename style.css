@@ -31,6 +31,9 @@ Global Styles
   margin: auto;
 }
 
+.d-none {
+  display: none;
+}
 
 .gray-bg-container {
   background-color: #E4E4E6;
