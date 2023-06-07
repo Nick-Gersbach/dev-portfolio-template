@@ -383,6 +383,18 @@ Projects
   background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/titan-email.webp);
 }
 
+#payapi-website {
+  background-color: #E4E4E6;
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url(./img/payapi-website.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#payapi-website:hover {
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/payapi-website.webp);
+}
+
 
 .project-text {
   text-align: center;
