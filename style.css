@@ -515,8 +515,8 @@ Tablet
   }
 
   .project {
-    width: 340px;
-    height: 500px;
+    width: 300px;
+    height: 450px;
 
   }
 
@@ -604,8 +604,13 @@ Mobile Landscape
   }
 
   .project {
-    width: 300px;
+    width: 290px;
     height: 450px;
+  }
+
+  .projects-text p {
+
+    width: 90%;
   }
 
 }
