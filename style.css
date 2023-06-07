@@ -487,6 +487,42 @@ input[type="submit"] {
 
 
 
+
+
+Footer
+
+
+
+
+
+
+*/
+
+footer {
+  background-color: #1D1D24;
+  color: #E4E4E6;
+  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer i {
+  color: #E4E4E6;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+/* 
+
+
+
 Media Queries
 
 
@@ -721,6 +757,23 @@ Mobile Landscape
     border-radius: 8px;
     width: 280px;
     height: 280px;
+  }
+
+  footer {
+    background-color: #1D1D24;
+    color: #E4E4E6;
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  ul.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
   }
 
 }
