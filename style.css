@@ -321,9 +321,14 @@ Projects
   grid-template-columns: repeat(3, 1fr);
   column-gap: 40px;
   row-gap: 60px;
+  align-items: center;
+  justify-items: center;
 }
 
 .project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 390px;
   height: 532px;
   border-radius: 8px;
@@ -364,6 +369,18 @@ Projects
 
 #fontawesome-email:hover {
   background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/fontawesome-email.webp);
+}
+
+#titanfitness-email {
+  background-color: #E4E4E6;
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url(./img/titan-email.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#titanfitness-email:hover {
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/titan-email.webp);
 }
 
 
@@ -451,6 +468,11 @@ Jumbo Tablet
     margin-left: 0rem;
   }
 
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
 }
 
 /* 
@@ -489,6 +511,12 @@ Tablet
   .skills-grid {
     grid-template-columns: repeat(3, 1fr);
     ;
+
+  }
+
+  .project {
+    width: 340px;
+    height: 500px;
 
   }
 
@@ -569,6 +597,15 @@ Mobile Landscape
   .skill img {
     width: 100px;
     height: 100px;
+  }
+
+  .projects-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project {
+    width: 300px;
+    height: 450px;
   }
 
 }
