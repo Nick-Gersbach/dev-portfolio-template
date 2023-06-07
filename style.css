@@ -462,6 +462,7 @@ textarea {
   padding-top: 3px;
   resize: none;
   width: 400px;
+  height: 200px;
 }
 
 textarea:focus {
@@ -478,6 +479,9 @@ input[type="submit"] {
 
 }
 
+.contact-img img {
+  border-radius: 8px;
+}
 
 /* 
 
@@ -601,6 +605,11 @@ Tablet
 
   }
 
+  #contact {
+    display: block;
+    text-align: center;
+  }
+
 }
 
 
@@ -692,6 +701,26 @@ Mobile Landscape
   .projects-text p {
 
     width: 90%;
+  }
+
+  form input {
+    height: 40px;
+    width: 280px;
+    padding-left: 7px;
+  }
+
+  textarea {
+    padding-left: 7px;
+    padding-top: 3px;
+    resize: none;
+    width: 280px;
+    height: 150px;
+  }
+
+  .contact-img img {
+    border-radius: 8px;
+    width: 280px;
+    height: 280px;
   }
 
 }
