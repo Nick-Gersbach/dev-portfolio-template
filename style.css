@@ -33,6 +33,26 @@ Global Styles
   margin: auto;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 75px;
+  right: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 32px;
+  z-index: 2;
+}
+
+.back-to-top.active {
+  opacity: 1;
+  pointer-events: auto;
+
+}
+
 .d-none {
   display: none;
 }
@@ -795,4 +815,8 @@ Mobile Landscape
     margin-top: 2rem;
   }
 
+  .back-to-top {
+    font-size: 21px;
+
+  }
 }
