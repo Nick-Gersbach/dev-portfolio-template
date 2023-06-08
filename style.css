@@ -769,6 +769,10 @@ Mobile Landscape
     height: 450px;
   }
 
+  .project-text h3 {
+    padding: 0 10px;
+  }
+
   .projects-text p {
 
     width: 90%;

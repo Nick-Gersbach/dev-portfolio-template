@@ -27,15 +27,8 @@ for(let i = 0; i < navLink.length; i++) {
 
 }
 
-
 function closeMobileMenu() {
 
 document.querySelector("ul").classList.remove('show');
 
-}
-
-var buttons = document.getElementsByClassName('project_download_btn');
-
-for(var i=0; i< buttons.length; i++){
-    buttons[i].hidden = true;
 }
