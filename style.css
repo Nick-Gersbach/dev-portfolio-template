@@ -35,6 +35,7 @@ Global Styles
   display: none;
 }
 
+
 .gray-bg-container {
   background-color: #E4E4E6;
   background-image: url(./img/showcase-bg-light.webp);
@@ -486,6 +487,15 @@ input[type="submit"] {
   border-radius: 8px;
 }
 
+.success-img img {
+  width: 200px;
+  height: 200px;
+}
+
+.contact-text {
+  text-align: center;
+}
+
 /* 
 
 
@@ -777,6 +787,10 @@ Mobile Landscape
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
+  }
+
+  .success-img img {
+    margin-top: 2rem;
   }
 
 }
