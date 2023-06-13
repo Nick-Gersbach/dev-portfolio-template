@@ -433,6 +433,17 @@ Projects
   background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/payapi-website.webp);
 }
 
+#hero-email {
+  background-color: #E4E4E6;
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url(./img/hero-smartwatch.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#hero-email:hover {
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/hero-smartwatch.webp);
+}
 
 .project-text {
   text-align: center;
