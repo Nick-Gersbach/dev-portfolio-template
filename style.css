@@ -445,6 +445,42 @@ Projects
   background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/hero-smartwatch.webp);
 }
 
+#designo-website {
+  background-color: #E4E4E6;
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url(./img/designo-website.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#designo-website:hover {
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/designo-website.webp);
+}
+
+#pod-landing-page {
+  background-color: #E4E4E6;
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url(./img/the-pod-landing.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#pod-landing-page:hover {
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/the-pod-landing.webp);
+}
+
+#base-apparel-landing-page {
+  background-color: #E4E4E6;
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(20, 20, 20, .8)), url(./img/base-apparel-landing.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#base-apparel-landing-page:hover {
+  background-image: linear-gradient(rgba(20, 20, 20, .8), rgba(254, 141, 0, .8)), url(./img/base-apparel-landing.webp);
+}
+
 .project-text {
   text-align: center;
   position: absolute;
